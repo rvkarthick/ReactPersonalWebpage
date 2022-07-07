@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.txt{
+padding-left: 650px;
+padding-top: 250px;
+}
+.Home{
+  background: url('/src/img/IMG_20220519_170249.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+.About{
+  background-color: silver;
+  background-size: cover;
+  height: 250vh;
+}
+.Nav{
+  position:sticky;
+  top: 0%;
+  z-index: 10000;
+}
+.Resume{
+  background-color: silver;
+  background-size: cover;
+  height: 170vh;
+}
+
+.fb{
+  text-align: center;
+}
+#comm{
+  width: 65%;
+height: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6%;
+  padding: 10%;
+  background-color: Gainsboro;
+
+}
+#name{
+  width: 85%;
+height: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6%;
+  background-color: Gainsboro;
+
+}
+#email{
+  
+  width: 85%;
+height: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6%;
+  background-color: Gainsboro;
+}
+#sub{
+  width: 50%;
+height: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 24%;
+  background-color: DeepPink;
+
+}
+.Feedback{
+  background-color: #f5e0e5 !important;
+  background-size: cover;
+  height: 100vh;
+  
+}
+.box{
+  border-radius: 50px;
+}
+.fav{
+  background-color: silver;
+  background-size: cover;
+
+}
+.don{
+  background-image:url("./img/don.jpg");  
+  background-size: cover;
+  opacity: 0.5;
+  margin-left: '-400px';
+  
+}
+.Contact{
+  background-color: rgb(212, 198, 212);
+}
+.nam
+{
+  
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #069dbf 10%,
+    #0ad75c 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size:70px;
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 300% center;
+  }
+}
+
